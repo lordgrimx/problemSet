@@ -1,0 +1,2250 @@
+{
+  "version": 1,
+  "title": "Developer Roadmap",
+  "weeks": [
+    {
+      "id": 1,
+      "title": "Sağlam bir başlangıç",
+      "focus": "Değişkenler, koşullar ve fonksiyonlar",
+      "phase": "Temeller",
+      "tasks": [
+        {
+          "id": "w1-1",
+          "category": "js",
+          "day": 0,
+          "title": "Sıcaklık dönüştürücü",
+          "minutes": 45,
+          "description": "Değişkenler, koşullar ve fonksiyonlar • 0°C → 32°F; negatif değer ve geçersiz girdiyi ele al.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w1-2",
+          "category": "js",
+          "day": 2,
+          "title": "Not ortalaması hesaplayıcı",
+          "minutes": 45,
+          "description": "Değişkenler, koşullar ve fonksiyonlar • Boş dizi, geçme sınırı ve ağırlıklı ortalamayı test et.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w1-3",
+          "category": "js",
+          "day": 4,
+          "title": "Sayaç bileşeni",
+          "minutes": 45,
+          "description": "Değişkenler, koşullar ve fonksiyonlar • Artır, azalt ve sıfırla. Sayı klavyeyle de değiştirilebilsin.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w1-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Two Sum",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/two-sum/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w1-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Contains Duplicate",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/contains-duplicate/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w1-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Valid Anagram",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/valid-anagram/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w1-7",
+          "category": "security",
+          "day": 0,
+          "title": "HTTP ve tarayıcı · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20HTTP%20ve%20taray%C4%B1c%C4%B1%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w1-8",
+          "category": "security",
+          "day": 2,
+          "title": "HTTP ve tarayıcı · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20HTTP%20ve%20taray%C4%B1c%C4%B1%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w1-9",
+          "category": "security",
+          "day": 4,
+          "title": "HTTP ve tarayıcı · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20HTTP%20ve%20taray%C4%B1c%C4%B1%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w1-10",
+          "category": "lab",
+          "day": 5,
+          "title": "HTTP ve tarayıcı lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/essential-skills",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w1-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Big O ve diziler",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Big%20O%20ve%20diziler",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w1-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Python ve NumPy",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. NumPy dizisi oluştur; ortalama ve standart sapmayı hesapla.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Python%20ve%20NumPy",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dizilerle düşün",
+      "focus": "Array metotları ve nesneler",
+      "phase": "Temeller",
+      "tasks": [
+        {
+          "id": "w2-1",
+          "category": "js",
+          "day": 0,
+          "title": "Sepet toplamı",
+          "minutes": 45,
+          "description": "Array metotları ve nesneler • reduce ile toplam; adet ve indirim; boş sepet 0 olsun.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w2-2",
+          "category": "js",
+          "day": 2,
+          "title": "Veri gruplama",
+          "minutes": 45,
+          "description": "Array metotları ve nesneler • Nesneleri kategoriye göre grupla; özgün diziyi değiştirme.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w2-3",
+          "category": "js",
+          "day": 4,
+          "title": "Filtrelenebilir ürün listesi",
+          "minutes": 45,
+          "description": "Array metotları ve nesneler • Arama + kategori filtresi; sonuç bulunamadı durumu.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w2-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Concatenation of Array",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/concatenation-of-array/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w2-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Remove Duplicates from Sorted Array",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w2-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Best Time to Buy and Sell Stock",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w2-7",
+          "category": "security",
+          "day": 0,
+          "title": "Kimlik doğrulama · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Kimlik%20do%C4%9Frulama%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w2-8",
+          "category": "security",
+          "day": 2,
+          "title": "Kimlik doğrulama · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Kimlik%20do%C4%9Frulama%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w2-9",
+          "category": "security",
+          "day": 4,
+          "title": "Kimlik doğrulama · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Kimlik%20do%C4%9Frulama%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w2-10",
+          "category": "lab",
+          "day": 5,
+          "title": "Kimlik doğrulama lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/authentication",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w2-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Hash map ve set",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Hash%20map%20ve%20set",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w2-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Pandas ile veri keşfi",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Küçük bir CSV oku; tipleri ve eksik değerleri raporla.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Pandas%20ile%20veri%20ke%C5%9Ffi",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Metinden arayüze",
+      "focus": "String, DOM ve olaylar",
+      "phase": "Temeller",
+      "tasks": [
+        {
+          "id": "w3-1",
+          "category": "js",
+          "day": 0,
+          "title": "Kelime frekansı",
+          "minutes": 45,
+          "description": "String, DOM ve olaylar • Büyük/küçük harfi normalize et; noktalama ve boş metni ele al.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w3-2",
+          "category": "js",
+          "day": 2,
+          "title": "Form doğrulayıcı",
+          "minutes": 45,
+          "description": "String, DOM ve olaylar • E-posta ve parola alanları; hataları alanla ilişkilendir.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w3-3",
+          "category": "js",
+          "day": 4,
+          "title": "Sekme bileşeni",
+          "minutes": 45,
+          "description": "String, DOM ve olaylar • Aktif sekme, klavye okları ve doğru ARIA rolleri.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w3-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Valid Palindrome",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/valid-palindrome/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w3-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Move Zeroes",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/move-zeroes/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w3-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Merge Sorted Array",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/merge-sorted-array/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w3-7",
+          "category": "security",
+          "day": 0,
+          "title": "Access control · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Access%20control%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w3-8",
+          "category": "security",
+          "day": 2,
+          "title": "Access control · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Access%20control%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w3-9",
+          "category": "security",
+          "day": 4,
+          "title": "Access control · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Access%20control%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w3-10",
+          "category": "lab",
+          "day": 5,
+          "title": "Access control lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/access-control",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w3-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Two pointers",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Two%20pointers",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w3-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Veri temizleme",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Eksik değer ve yinelenen satırları tespit edip temizle.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Veri%20temizleme",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "İlk kontrol noktası",
+      "focus": "Scope, closure ve tekrar",
+      "phase": "Temeller",
+      "tasks": [
+        {
+          "id": "w4-1",
+          "category": "js",
+          "day": 0,
+          "title": "Closure ile sayaç",
+          "minutes": 45,
+          "description": "Scope, closure ve tekrar • İki bağımsız sayaç üret; dışarıdan state değiştirilemesin.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w4-2",
+          "category": "js",
+          "day": 2,
+          "title": "Undo / redo",
+          "minutes": 45,
+          "description": "Scope, closure ve tekrar • İşlem geçmişi, geri al ve yeniden yap; sınırları test et.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w4-3",
+          "category": "js",
+          "day": 4,
+          "title": "Erişilebilir modal",
+          "minutes": 45,
+          "description": "Scope, closure ve tekrar • Escape ile kapat; odak modal içinde kalsın ve geri dönsün.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w4-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Valid Parentheses",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/valid-parentheses/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w4-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Implement Queue using Stacks",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w4-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Min Stack",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/min-stack/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w4-7",
+          "category": "security",
+          "day": 0,
+          "title": "SQL injection · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SQL%20injection%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w4-8",
+          "category": "security",
+          "day": 2,
+          "title": "SQL injection · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SQL%20injection%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w4-9",
+          "category": "security",
+          "day": 4,
+          "title": "SQL injection · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SQL%20injection%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w4-10",
+          "category": "lab",
+          "day": 5,
+          "title": "SQL injection lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/sql-injection",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w4-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Stack ve queue",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Stack%20ve%20queue",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w4-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Veri görselleştirme",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Üç değişkeni çiz; grafiklerden iki gözlem çıkar.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Veri%20g%C3%B6rselle%C5%9Ftirme",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Asenkron düşün",
+      "focus": "Promise, async / await ve fetch",
+      "phase": "Uygulama",
+      "tasks": [
+        {
+          "id": "w5-1",
+          "category": "js",
+          "day": 0,
+          "title": "Promise sıralama",
+          "minutes": 45,
+          "description": "Promise, async / await ve fetch • Promise sıralama geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w5-2",
+          "category": "js",
+          "day": 2,
+          "title": "API hata yönetimi",
+          "minutes": 45,
+          "description": "Promise, async / await ve fetch • API hata yönetimi geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w5-3",
+          "category": "js",
+          "day": 4,
+          "title": "Arama ve debounce",
+          "minutes": 45,
+          "description": "Promise, async / await ve fetch • Arama ve debounce geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w5-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Maximum Average Subarray I",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w5-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Longest Substring Without Repeating Characters",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w5-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Find All Anagrams in a String",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w5-7",
+          "category": "security",
+          "day": 0,
+          "title": "Cross-site scripting · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Cross-site%20scripting%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w5-8",
+          "category": "security",
+          "day": 2,
+          "title": "Cross-site scripting · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Cross-site%20scripting%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w5-9",
+          "category": "security",
+          "day": 4,
+          "title": "Cross-site scripting · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Cross-site%20scripting%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w5-10",
+          "category": "lab",
+          "day": 5,
+          "title": "Cross-site scripting lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/cross-site-scripting",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w5-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Sliding window",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Sliding%20window",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w5-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Train / test ayrımı",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Veriyi ayır; test verisini eğitimden uzak tut.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Train%20/%20test%20ayr%C4%B1m%C4%B1",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bileşen tasarımı",
+      "focus": "Modüller, state ve saf fonksiyonlar",
+      "phase": "Uygulama",
+      "tasks": [
+        {
+          "id": "w6-1",
+          "category": "js",
+          "day": 0,
+          "title": "Immutable güncelleme",
+          "minutes": 45,
+          "description": "Modüller, state ve saf fonksiyonlar • Immutable güncelleme geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w6-2",
+          "category": "js",
+          "day": 2,
+          "title": "Sayfalama mantığı",
+          "minutes": 45,
+          "description": "Modüller, state ve saf fonksiyonlar • Sayfalama mantığı geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w6-3",
+          "category": "js",
+          "day": 4,
+          "title": "Sayfalanan tablo",
+          "minutes": 45,
+          "description": "Modüller, state ve saf fonksiyonlar • Sayfalanan tablo geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w6-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Binary Search",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/binary-search/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w6-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Search Insert Position",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/search-insert-position/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w6-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "First Bad Version",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/first-bad-version/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w6-7",
+          "category": "security",
+          "day": 0,
+          "title": "CSRF · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CSRF%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w6-8",
+          "category": "security",
+          "day": 2,
+          "title": "CSRF · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CSRF%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w6-9",
+          "category": "security",
+          "day": 4,
+          "title": "CSRF · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CSRF%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w6-10",
+          "category": "lab",
+          "day": 5,
+          "title": "CSRF lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/csrf",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w6-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Binary search",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Binary%20search",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w6-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Linear regression",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. scikit-learn ile regresyon kur; MAE hesapla.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Linear%20regression",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Veri akışını kur",
+      "focus": "Event loop ve hata ayıklama",
+      "phase": "Uygulama",
+      "tasks": [
+        {
+          "id": "w7-1",
+          "category": "js",
+          "day": 0,
+          "title": "Event loop tahmini",
+          "minutes": 45,
+          "description": "Event loop ve hata ayıklama • Event loop tahmini geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w7-2",
+          "category": "js",
+          "day": 2,
+          "title": "Retry fonksiyonu",
+          "minutes": 45,
+          "description": "Event loop ve hata ayıklama • Retry fonksiyonu geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w7-3",
+          "category": "js",
+          "day": 4,
+          "title": "Toast bildirimleri",
+          "minutes": 45,
+          "description": "Event loop ve hata ayıklama • Toast bildirimleri geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w7-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Reverse Linked List",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/reverse-linked-list/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w7-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Merge Two Sorted Lists",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w7-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Linked List Cycle",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/linked-list-cycle/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w7-7",
+          "category": "security",
+          "day": 0,
+          "title": "CORS · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CORS%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w7-8",
+          "category": "security",
+          "day": 2,
+          "title": "CORS · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CORS%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w7-9",
+          "category": "security",
+          "day": 4,
+          "title": "CORS · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20CORS%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w7-10",
+          "category": "lab",
+          "day": 5,
+          "title": "CORS lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/cors",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w7-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Linked list",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Linked%20list",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w7-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Model değerlendirme",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Baseline ile modeli aynı test kümesinde karşılaştır.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Model%20de%C4%9Ferlendirme",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "İkinci kontrol noktası",
+      "focus": "Test ve erişilebilirlik",
+      "phase": "Uygulama",
+      "tasks": [
+        {
+          "id": "w8-1",
+          "category": "js",
+          "day": 0,
+          "title": "Fonksiyon testleri",
+          "minutes": 45,
+          "description": "Test ve erişilebilirlik • Fonksiyon testleri geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w8-2",
+          "category": "js",
+          "day": 2,
+          "title": "Klavye navigasyonu",
+          "minutes": 45,
+          "description": "Test ve erişilebilirlik • Klavye navigasyonu geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w8-3",
+          "category": "js",
+          "day": 4,
+          "title": "Accordion bileşeni",
+          "minutes": 45,
+          "description": "Test ve erişilebilirlik • Accordion bileşeni geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w8-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Maximum Depth of Binary Tree",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w8-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Invert Binary Tree",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/invert-binary-tree/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w8-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Same Tree",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/same-tree/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w8-7",
+          "category": "security",
+          "day": 0,
+          "title": "Path traversal · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Path%20traversal%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w8-8",
+          "category": "security",
+          "day": 2,
+          "title": "Path traversal · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Path%20traversal%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w8-9",
+          "category": "security",
+          "day": 4,
+          "title": "Path traversal · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20Path%20traversal%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w8-10",
+          "category": "lab",
+          "day": 5,
+          "title": "Path traversal lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/file-path-traversal",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w8-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Recursion ve tree",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Recursion%20ve%20tree",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w8-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Logistic regression",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Iris üzerinde sınıflandır; confusion matrix çıkar.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Logistic%20regression",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Daha derine in",
+      "focus": "Prototipler ve class",
+      "phase": "Derinleşme",
+      "tasks": [
+        {
+          "id": "w9-1",
+          "category": "js",
+          "day": 0,
+          "title": "Prototip zinciri",
+          "minutes": 45,
+          "description": "Prototipler ve class • Prototip zinciri geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w9-2",
+          "category": "js",
+          "day": 2,
+          "title": "Ağaç düzleştirme",
+          "minutes": 45,
+          "description": "Prototipler ve class • Ağaç düzleştirme geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w9-3",
+          "category": "js",
+          "day": 4,
+          "title": "Dosya gezgini",
+          "minutes": 45,
+          "description": "Prototipler ve class • Dosya gezgini geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w9-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Binary Tree Inorder Traversal",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w9-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Flood Fill",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/flood-fill/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w9-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Number of Islands",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/number-of-islands/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w9-7",
+          "category": "security",
+          "day": 0,
+          "title": "SSRF · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SSRF%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w9-8",
+          "category": "security",
+          "day": 2,
+          "title": "SSRF · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SSRF%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w9-9",
+          "category": "security",
+          "day": 4,
+          "title": "SSRF · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20SSRF%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w9-10",
+          "category": "lab",
+          "day": 5,
+          "title": "SSRF lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/ssrf",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w9-11",
+          "category": "ds",
+          "day": 3,
+          "title": "BFS ve DFS",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20BFS%20ve%20DFS",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w9-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Decision tree",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Ağaç derinliğini değiştir; train/test skorlarını karşılaştır.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Decision%20tree",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Performansı anla",
+      "focus": "Memoization ve performans",
+      "phase": "Derinleşme",
+      "tasks": [
+        {
+          "id": "w10-1",
+          "category": "js",
+          "day": 0,
+          "title": "Memoize yardımcısı",
+          "minutes": 45,
+          "description": "Memoization ve performans • Memoize yardımcısı geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w10-2",
+          "category": "js",
+          "day": 2,
+          "title": "Throttle fonksiyonu",
+          "minutes": 45,
+          "description": "Memoization ve performans • Throttle fonksiyonu geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w10-3",
+          "category": "js",
+          "day": 4,
+          "title": "Büyük liste görünümü",
+          "minutes": 45,
+          "description": "Memoization ve performans • Büyük liste görünümü geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w10-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Kth Largest Element in a Stream",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w10-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Last Stone Weight",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/last-stone-weight/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w10-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Top K Frequent Elements",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w10-7",
+          "category": "security",
+          "day": 0,
+          "title": "File upload güvenliği · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20File%20upload%20g%C3%BCvenli%C4%9Fi%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w10-8",
+          "category": "security",
+          "day": 2,
+          "title": "File upload güvenliği · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20File%20upload%20g%C3%BCvenli%C4%9Fi%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w10-9",
+          "category": "security",
+          "day": 4,
+          "title": "File upload güvenliği · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20File%20upload%20g%C3%BCvenli%C4%9Fi%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w10-10",
+          "category": "lab",
+          "day": 5,
+          "title": "File upload güvenliği lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/file-upload",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w10-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Heap ve priority queue",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Heap%20ve%20priority%20queue",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w10-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Cross validation",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. 5-fold cross validation ile ortalama ve sapmayı raporla.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Cross%20validation",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Parçaları birleştir",
+      "focus": "Depolama ve uygulama mimarisi",
+      "phase": "Derinleşme",
+      "tasks": [
+        {
+          "id": "w11-1",
+          "category": "js",
+          "day": 0,
+          "title": "Güvenli JSON okuma",
+          "minutes": 45,
+          "description": "Depolama ve uygulama mimarisi • Güvenli JSON okuma geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w11-2",
+          "category": "js",
+          "day": 2,
+          "title": "State store",
+          "minutes": 45,
+          "description": "Depolama ve uygulama mimarisi • State store geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w11-3",
+          "category": "js",
+          "day": 4,
+          "title": "Kalıcı görev listesi",
+          "minutes": 45,
+          "description": "Depolama ve uygulama mimarisi • Kalıcı görev listesi geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w11-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Climbing Stairs",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/climbing-stairs/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w11-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Min Cost Climbing Stairs",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w11-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "House Robber",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/house-robber/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w11-7",
+          "category": "security",
+          "day": 0,
+          "title": "JWT güvenliği · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20JWT%20g%C3%BCvenli%C4%9Fi%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w11-8",
+          "category": "security",
+          "day": 2,
+          "title": "JWT güvenliği · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20JWT%20g%C3%BCvenli%C4%9Fi%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w11-9",
+          "category": "security",
+          "day": 4,
+          "title": "JWT güvenliği · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20JWT%20g%C3%BCvenli%C4%9Fi%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w11-10",
+          "category": "lab",
+          "day": 5,
+          "title": "JWT güvenliği lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/jwt",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w11-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Dynamic programming",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Dynamic%20programming",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w11-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Pipeline ve veri sızıntısı",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Önişleme ve modeli Pipeline içine al.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20Pipeline%20ve%20veri%20s%C4%B1z%C4%B1nt%C4%B1s%C4%B1",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Üret, ölç, anlat",
+      "focus": "Mini proje ve genel tekrar",
+      "phase": "Derinleşme",
+      "tasks": [
+        {
+          "id": "w12-1",
+          "category": "js",
+          "day": 0,
+          "title": "Proje veri modeli",
+          "minutes": 45,
+          "description": "Mini proje ve genel tekrar • Proje veri modeli geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w12-2",
+          "category": "js",
+          "day": 2,
+          "title": "Dashboard bileşenleri",
+          "minutes": 45,
+          "description": "Mini proje ve genel tekrar • Dashboard bileşenleri geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w12-3",
+          "category": "js",
+          "day": 4,
+          "title": "Test ve refactor",
+          "minutes": 45,
+          "description": "Mini proje ve genel tekrar • Test ve refactor geliştir. En az üç sınır durumu belirle; yüklenme, hata veya boş durumları uygun olduğunda göster. Çözümünü küçük fonksiyonlara ayır.",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "resourceLabel": "MDN JavaScript rehberi",
+          "steps": [
+            "10 dk: kavramı oku ve küçük bir örnek yaz.",
+            "25 dk: çözümü kendin uygula.",
+            "10 dk: üç örnekle doğrula, öğrendiğini not et."
+          ]
+        },
+        {
+          "id": "w12-4",
+          "category": "leetcode",
+          "day": 1,
+          "title": "Ransom Note",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/ransom-note/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w12-5",
+          "category": "leetcode",
+          "day": 3,
+          "title": "Find Pivot Index",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/find-pivot-index/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w12-6",
+          "category": "leetcode",
+          "day": 5,
+          "title": "Maximum Subarray",
+          "minutes": 40,
+          "description": "JavaScript ile çöz. Önce örnek üzerinde düşün; ardından zaman ve alan karmaşıklığını açıkla.",
+          "url": "https://leetcode.com/problems/maximum-subarray/",
+          "resourceLabel": "LeetCode problemi",
+          "steps": [
+            "5 dk: girdiyi, çıktıyı ve sınır durumlarını yaz.",
+            "25 dk: ipucu almadan dene; takılırsan tek ipucu kullan.",
+            "10 dk: çözümü analiz et; 2 gün sonra yeniden anlat."
+          ]
+        },
+        {
+          "id": "w12-7",
+          "category": "security",
+          "day": 0,
+          "title": "Güvenlik değerlendirmesi · Temel mantık",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Kavramı üç cümlede anlat.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20G%C3%BCvenlik%20de%C4%9Ferlendirmesi%20explained",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w12-8",
+          "category": "security",
+          "day": 2,
+          "title": "Güvenlik değerlendirmesi · Örnek incelemesi",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. Bir zafiyetin hangi varsayımdan doğduğunu açıkla.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20G%C3%BCvenlik%20de%C4%9Ferlendirmesi%20walkthrough",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w12-9",
+          "category": "security",
+          "day": 4,
+          "title": "Güvenlik değerlendirmesi · Savunma ve tekrar",
+          "minutes": 25,
+          "description": "Video izlerken istek/yanıt akışını çiz. İki korunma yöntemi ve bunların sınırlarını not et.",
+          "url": "https://www.youtube.com/results?search_query=PortSwigger%20G%C3%BCvenlik%20de%C4%9Ferlendirmesi%20prevention",
+          "resourceLabel": "YouTube’da konu videosu ara",
+          "steps": [
+            "15 dk: ilgili video bölümünü izle.",
+            "5 dk: videoyu kapatıp hatırladıklarını yaz.",
+            "5 dk: bir kontrol sorusu oluştur."
+          ]
+        },
+        {
+          "id": "w12-10",
+          "category": "lab",
+          "day": 5,
+          "title": "Güvenlik değerlendirmesi lab",
+          "minutes": 60,
+          "description": "PortSwigger Academy üzerinde bu konuyla ilgili bir başlangıç labı seç. Yalnızca izinli eğitim ortamında çalış.",
+          "url": "https://portswigger.net/web-security/learning-paths",
+          "resourceLabel": "PortSwigger konu ve labları",
+          "steps": [
+            "10 dk: lab hedefini ve HTTP akışını incele.",
+            "35 dk: labı dene; takılırsan bir ipucu kullan.",
+            "15 dk: kök neden, çözüm ve savunmayı raporla."
+          ]
+        },
+        {
+          "id": "w12-11",
+          "category": "ds",
+          "day": 3,
+          "title": "Pattern seçimi ve tekrar",
+          "minutes": 30,
+          "description": "Görsel anlatımı izle, veri yapısını kağıtta çiz ve bir işlemi elle yürüt.",
+          "url": "https://www.youtube.com/results?search_query=William%20Fiset%20Pattern%20se%C3%A7imi%20ve%20tekrar",
+          "resourceLabel": "YouTube’da veri yapıları videosu ara",
+          "steps": [
+            "20 dk: anlatımı izle.",
+            "10 dk: bir örneği çiz; işlem karmaşıklıklarını yaz."
+          ]
+        },
+        {
+          "id": "w12-12",
+          "category": "ml",
+          "day": 6,
+          "title": "Uçtan uca ML projesi",
+          "minutes": 60,
+          "description": "20 dk video + 35 dk Python notebook pratiği + 5 dk sonuç notu. Açık bir veri setinde baseline, model, metrik ve kısa rapor üret.",
+          "url": "https://www.youtube.com/results?search_query=StatQuest%20U%C3%A7tan%20uca%20ML%20projesi",
+          "resourceLabel": "YouTube’da ML videosu ara",
+          "steps": [
+            "Videonun ilgili bölümünü izle.",
+            "Kodu bir notebook içinde kendin yaz ve çalıştır.",
+            "Çıktıyı yorumla; sonraki hafta için bir soru bırak."
+          ]
+        }
+      ]
+    }
+  ]
+}
