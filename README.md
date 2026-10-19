@@ -39,7 +39,7 @@ LeetCode bağlantıları problem sayfalarına, güvenlik kaynakları PortSwigger
 
 ## İlerleme ve yedekler
 
-Görev durumları, görev notları, haftalık notlar ve seçilen hafta `localStorage` içindeki `pathwork-v1` anahtarında tutulur. Hesap, sunucuda veri saklama ve otomatik cihaz senkronizasyonu yoktur. Tarayıcı verilerini silmek kayıtları kaldırır. Not defterinden **Yedeği indir** ile JSON alın, diğer cihazda **Yedekten geri yükle** ile içeri aktarın. Geri yükleme, onaydan sonra mevcut kaydın yerini alır. Müfredat ve kişisel ilerleme ayrı JSON yapılarıdır.
+Görev durumları, görev notları, haftalık notlar ve seçilen hafta `localStorage` içindeki `pathwork-v1` anahtarında tutulur. Hesap, sunucuda veri saklama ve otomatik cihaz senkronizasyonu yoktur. Tarayıcı verilerini silmek kayıtları kaldırır. Not defterinden **Yedeği indir** ile JSON alın, diğer cihazda **Yedekten geri yükle** ile içeri aktarın. İçe aktarma, onaydan sonra mevcut kayıtla birleştirilir: tamamlamalar korunur, farklı notlar eklenir, aynı kimlikli süre kayıtları çoğaltılmaz. Önceki kayıt `pathwork-v1-before-import` anahtarında yedeklenir. Müfredat ve kişisel ilerleme ayrı JSON yapılarıdır.
 
 ## Kontroller
 
@@ -54,3 +54,23 @@ Veri testi 12 hafta, 144 benzersiz oturum, kategori başına gün dağılımı v
 ## GitHub Pages
 
 `main` dalına push yapıldığında `.github/workflows/pages.yml` testleri çalıştırır ve yalnızca statik site dosyalarını GitHub Pages'e gönderir. GitHub deposunda **Settings → Pages → Source → GitHub Actions** seçili olmalıdır. Yayın adresi: `https://lordgrimx.github.io/problemSet/`. Göreli kaynak yolları depo alt yolunu destekler.
+
+
+## Sayaç ve dashboard
+
+- **Çalışmaya başla** görev penceresini açarken sayacı otomatik başlatır. Görev ayrıntısını açmak tek başına süre başlatmaz.
+- **Başlat** sayacı başlatır; **Durdur** süreyi kaydeder; **Bitir** süreyi kaydedip görevi tamamlar. Tek bir sayaç çalışır. Diğer göreve geçişte onayla önceki sayaç durdurulur.
+- Sayaç zaman damgasıyla tutulur: sayfa yenilense, sekme arka plana alınsa veya tarayıcı kapansa da süre işler. Mola verirken Durdur kullanılmalıdır. Görev süre hedefi aşılınca sayaç otomatik kesilmez.
+- Manuel olarak geçmiş bir tarihe 1–1440 dakika eklenebilir. Görev otomatik tamamlanmaz. Yanlış kayıt dashboard’dan silinebilir.
+- Dashboard toplam süre, bugün, son 7 gün, kategori dağılımı, haftalık tamamlama ve geçmiş çalışmaları gösterir. Tarihler Europe/Istanbul saat dilimindedir. Gece yarısını geçen sayaç kaydı günlere bölünür.
+- Yedek indirmek aktif sayacı durdurup kaydeder. Eski v1 yedekleri desteklenir. İçe aktarılan aktif sayaç otomatik sürdürülmez; kaydedilmiş oturumlar taşınır.
+- `history` alanı eski Sites görevlerini özgün başlık ve tarihle korur. Aynı görevin yeni planda karşılığı varsa `mappedTaskId` ile bağlanır. Eski ve yeni hafta numaraları ayrı tutulur. Kişisel geçmiş verileri uygulama kaynak koduna dahil edilmez.
+
+Ek kontroller:
+
+```sh
+TEST_URL=http://127.0.0.1:3000 python tests/browser_smoke.py
+TEST_URL=http://127.0.0.1:3000 python tests/timer_browser.py
+```
+
+Sayaç testleri yeniden yükleme, durdurma, manuel süre, bitirme ve mobil dashboard’u doğrular. Birim testleri eski yedek geçişi, gece yarısı ayrımı, yinelenmeyen birleştirme ve geçersiz süre reddini kapsar.

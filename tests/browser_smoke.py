@@ -1,11 +1,11 @@
 from playwright.sync_api import sync_playwright
-import json
+import json,os
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
  page=browser.new_page(viewport={'width':1440,'height':1050},device_scale_factor=1)
  errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)))
- page.goto('http://127.0.0.1:3000')
+ page.goto(os.environ.get('TEST_URL','http://127.0.0.1:3000'))
  page.wait_for_selector('.day')
  assert page.locator('.day').count()==7
  assert page.locator('[data-check]').count()==12
